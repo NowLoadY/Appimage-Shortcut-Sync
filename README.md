@@ -202,7 +202,7 @@ The sync tool executes in three steps:
 #### Step 1: Clean Invalid Shortcuts
 
 ```bash
-1. Scan ~/桌面/*.desktop and ~/Desktop/*.desktop
+1. Scan ~/Desktop/*.desktop and ~/Desktop/*.desktop
 2. Extract Exec path from each shortcut
 3. Check if Exec path file exists
 4. If file doesn't exist:
@@ -285,7 +285,7 @@ Complete
 
 | Type | Path | Description |
 |------|------|-------------|
-| Desktop Shortcut | `~/桌面/[app_name].desktop` | Desktop icon, double-click to launch |
+| Desktop Shortcut | `~/Desktop/[app_name].desktop` | Desktop icon, double-click to launch |
 | Application Menu | `~/.local/share/applications/[app_name].desktop` | Shown in app launcher |
 | Icon File | `~/.local/share/icons/hicolor/256x256/apps/[app_name].png` | 256x256 high-res icon |
 
@@ -301,7 +301,7 @@ Complete
 
 ```bash
 # 1. Fix desktop directory permissions
-chmod 755 ~/桌面
+chmod 755 ~/Desktop
 
 # 2. Restart DING extension
 gnome-extensions disable ding@rastersoft.com
@@ -357,7 +357,7 @@ rm ~/appinstall/SomeApp.AppImage
 
 ```bash
 # 1. Remove desktop shortcut
-rm ~/桌面/[app_name].desktop
+rm ~/Desktop/[app_name].desktop
 
 # 2. Remove application menu entry
 rm ~/.local/share/applications/[app_name].desktop
@@ -398,7 +398,7 @@ Edit the shortcut file:
 
 ```bash
 # Edit desktop shortcut
-nano ~/桌面/[app_name].desktop
+nano ~/Desktop/[app_name].desktop
 
 # Modify Icon line to point to custom icon path
 Icon=/path/to/custom/icon.png
@@ -561,10 +561,10 @@ The script uses `gio set ... metadata::trusted true` to set trust marks, which i
 
 ```bash
 # Set trust mark
-gio set ~/桌面/app.desktop metadata::trusted true
+gio set ~/Desktop/app.desktop metadata::trusted true
 
 # View trust status
-gio info ~/桌面/app.desktop | grep trusted
+gio info ~/Desktop/app.desktop | grep trusted
 ```
 
 **Why is this needed?**
