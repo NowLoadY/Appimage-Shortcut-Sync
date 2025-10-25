@@ -1,0 +1,1 @@
+# Appimage-Shortcut-Sync
