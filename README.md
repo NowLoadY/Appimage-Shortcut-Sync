@@ -656,8 +656,6 @@ appinstall/
 
 ## Changelog
 
-See [CHANGELOG.md](CHANGELOG.md) for detailed update history.
-
 ### Recent Update (2025-10-26)
 
 - ✨ Script auto-locating feature
