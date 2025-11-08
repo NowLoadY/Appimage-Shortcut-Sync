@@ -56,14 +56,6 @@ Now you can launch your AppImage applications from desktop or application menu.
 
 ## Usage Guide
 
-### 📦 Batch Sync Tool (Recommended)
-
-**Script Name**: `appimage-shortcut-sync.sh`
-
-**Function**: Automatically sync desktop shortcuts with AppImage files
-
-#### Basic Usage
-
 ```bash
 # Method 1: Script in AppImage directory (Recommended)
 cd ~/appinstall
