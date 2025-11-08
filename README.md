@@ -1,10 +1,15 @@
 # AppImage Desktop Shortcut Manager
 
+
 > One-click management of AppImage desktop shortcuts - Auto-extract icons, create shortcuts, and clean invalid entries
 
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](#)
 [![Platform](https://img.shields.io/badge/platform-Linux-orange.svg)](#)
 [![Shell](https://img.shields.io/badge/shell-Bash-green.svg)](#)
+
+## TO DO LIST
+
+Desktop Shortcut Manager with GUI
 
 ## 📖 Table of Contents
 
